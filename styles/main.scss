@@ -1,0 +1,9 @@
+@use './base/reset';
+@use './base/variables';
+@use './base/mixins';
+
+@use './layout/navbar.scss';
+@use './layout/productos.scss';
+
+@use './pages/register.scss';
+@use './pages/login.scss';

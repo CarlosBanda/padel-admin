@@ -1,0 +1,43 @@
+
+.contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.producto-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  width: 250px;
+  text-align: center;
+
+  &:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
+  img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .contenido {
+    padding: 1rem;
+
+    h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1.25rem;
+    }
+
+    p {
+      margin: 0;
+      color: #555;
+    }
+  }
+}
